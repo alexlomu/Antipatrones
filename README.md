@@ -139,9 +139,8 @@ selected_operation = tk.StringVar()
 selected_operation.set('+')
 
 app.mainloop()
-
-
 ```
+
 Como podemos observar en el nuevo código primero definimos las funciones de las operaciones en vez de realizar todas las operaciones en la misma función, para que luego en la funcion calcular usando las funciones anteriores obtendreos el resultado esperado dependiendo de la operación a realizar. 
 
 Ahora añadiremos dos expcepciones para prevenir errores. 
