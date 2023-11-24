@@ -117,7 +117,7 @@ button_resta.grid(row=2, column=1, padx=5, pady=10)
 operation_buttons.append(button_resta)
 
 button_multiplicacion = tk.Button(app, text="x", command=lambda: set_operation('x'))
-button_multiplicacion.grid(row=2, column=2, padx=5, pady=10)
+button_multiplicacion.grid(row=2, column=3, padx=5, pady=10)
 operation_buttons.append(button_multiplicacion)
 
 button_division = tk.Button(app, text="/", command=lambda: set_operation('/'))
@@ -139,6 +139,7 @@ selected_operation = tk.StringVar()
 selected_operation.set('+')
 
 app.mainloop()
+
 ```
 Como podemos observar en el nuevo código primero definimos las funciones de las operaciones en vez de realizar todas las operaciones en la misma función, para que luego en la funcion calcular usando las funciones anteriores obtendreos el resultado esperado dependiendo de la operación a realizar. 
 
