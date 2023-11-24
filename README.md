@@ -144,6 +144,6 @@ Como podemos observar en el nuevo código primero definimos las funciones de las
 
 Ahora añadiremos dos expcepciones para prevenir errores. 
 
-Ahora definiremos una función para guardar las operaciones realizadas en el archivo operaciones.csv que se creará al usar por primera vez la interfaz.
+A continuación definiremos una función para guardar las operaciones realizadas en el archivo operaciones.csv que se creará al usar por primera vez la interfaz.
 
-A continuación empezaremos con la interfaz usando tkinter en la que introduciremos ambos números y seleccionaremos el botón de la operación correspondiente para clicar "Calcular" y obtengamos el resultado.
+Por último empezaremos con la interfaz usando tkinter en la que introduciremos ambos números y seleccionaremos el botón de la operación correspondiente para clicar "Calcular" y obtengamos el resultado.
