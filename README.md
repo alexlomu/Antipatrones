@@ -129,16 +129,17 @@ button_division.grid(row=3, column=1, padx=5, pady=10)
 operation_buttons.append(button_division)
 
 button_calcular = tk.Button(app, text="Calcular", command=calcular)
-button_calcular.grid(row=4, column=0, columnspan=5, pady=10)
+button_calcular.grid(row=4, column=1, columnspan=5, pady=10)
 
 label_resultado = tk.Label(app, text="Resultado:", font=("Helvetica", 14, "bold"))
-label_resultado.grid(row=5, column=0, columnspan=5, pady=10)
+label_resultado.grid(row=5, column=1, columnspan=5, pady=10)
 
 # Variable para rastrear la operación seleccionada
 selected_operation = tk.StringVar()
 selected_operation.set('+')
 
 app.mainloop()
+
 
 ```
 Como podemos observar en el nuevo código primero definimos las funciones de las operaciones en vez de realizar todas las operaciones en la misma función, para que luego en la funcion calcular usando las funciones anteriores obtendreos el resultado esperado dependiendo de la operación a realizar. 
